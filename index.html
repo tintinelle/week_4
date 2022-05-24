@@ -1,184 +1,28 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style/normalize.css">
+    <link rel="stylesheet" href="assets/style/style.css">
     <title>Toy.Stream</title>
-    <style>
-        @font-face {
-            font-family: 'ZonaPro'; 
-            src: url(assets/fonts/zonapro.ttf);
-        }
-        @font-face {
-            font-family: 'Akrobat';
-            src: url(assets/fonts/akrobat.ttf)
-        }
-
-        #logo {
-            position: absolute;
-            width: 135px;
-            height: 75px;
-            left: 84px;
-            top: 23px;
-        }
-
-        #menu {
-            position: absolute;
-            width: 643px;
-            height: 25px;
-            left: 1062px;
-            top: 48px;
-            word-spacing: 50px;
-            
-        }
-
-        #rectangle {
-            position: absolute;
-            width: 1640px;
-            height: 942px;
-            left: 280px;
-            top: 0px;
-            background-color: #FFEA2F;
-        } 
-
-        h1 {
-            position: absolute;
-            width: 1077px;
-            height: 255px;
-            left: 86px;
-            top: 326px;
-            font-family: 'ZonaPro';
-            font-style: normal;
-            font-weight: 800;
-            font-size: 72px;
-            line-height: 85px;
-            text-transform: uppercase;
-        }
-
-        #links {
-            position: absolute;
-            width: 32px;
-            height: 282px;
-            left: 88px;
-            top: 660px;
-        }
-
-        #unicorn {
-            position: absolute;
-            width: 786px;
-            height: 733px;
-            left: 1094px;
-            top: 169px;
-        }
-
-        #text {
-            position: absolute;
-            width: 459px;
-            height: 90px;
-            left: 401px;
-            top: 705px;
-        }
-        
-        #eng, #more {
-            width: 120px;
-            height: 120px;
-            background-color: #CE0002;
-            color: #FFFFFF;
-        }
-
-        .textakrobat, #inc, #menu {
-            font-family: 'Akrobat';
-            font-weight: 600;
-            font-style: normal;
-            font-size: 20px;
-            line-height: 25px;
-        }
-
-        .footer {
-            color: #7E7E7E;
-        }
-        
-        #eng {
-            position: absolute;
-            left: 1800px;
-            top: 0px;
-        }
-        #more {
-            position: absolute;
-            left: 215px;
-            top: 690px;
-            
-            padding-top: 16px;
-        }
-        footer {
-            position: absolute;
-            width: 1922px;
-            height: 54px;
-            left: -2px;
-            top: 1019px;
-            background-color: #EFEFEF;
-        }
-
-        #inc, #footernav, #footerlinks {
-            position: absolute;
-            bottom: 16px;
-        }
-
-        #inc {
-            left: 27px;
-        }
-
-        #footernav {
-            left: 674px;
-
-            word-spacing: 40px;
-        }
-
-        #footerlinks {
-            right: 25px;
-        }
-
-        a, .btn{
-            text-decoration: none;
-        }
-
-        .navigation {
-            color: #000000;
-        }
-        
-        #btn {
-            color: #FFFFFF;
-        }
-
-        .navigation:first-child {
-            color: #FF0000;
-        }
-
-        a:hover {
-            text-decoration:underline;
-        }
-        
-        a:focus {
-            background-color: #CE0002;
-        }
-    </style>
 </head>
 
 <body>
     <div id="rectangle"></div>
-    <header style="background-color: #FFEE2F;" >
+    <header style="background-color: #FFEE2F;">
         <img id="logo" src="assets/img/logo.svg" alt="logo">
         <nav id="menu">
-            <a href="#main" class="navigation">Главная</a> 
-            <a href="#company" class="navigation">Компания</a> 
-            <a href="#games" class="navigation">Игры</a> 
-            <a href="#career" class="navigation">Карьера</a> 
-            <a href="#news" class="navigation">Новости</a> 
-            <a href="#contacts" class="navigation">Контакты</a> 
+            <a href="#main" class="navigation">Главная</a>
+            <a href="#company" class="navigation">Компания</a>
+            <a href="#games" class="navigation">Игры</a>
+            <a href="#career" class="navigation">Карьера</a>
+            <a href="#news" class="navigation">Новости</a>
+            <a href="#contacts" class="navigation">Контакты</a>
         </nav>
-            <button id="eng" class="textakrobat" type="button">ENG</button>
+        <button id="eng" class="textakrobat" type="button">ENG</button>
     </header>
 
     <main>
@@ -194,23 +38,24 @@
 
         <img id="unicorn" src="assets/img/group.svg" alt="unicorn">
         <p id="text" class="textakrobat">
-            «Оригинальные идеи, качество реализации игровых механик и внимание к деталям интерфейса - наши основные принципы.»
+            «Оригинальные идеи, качество реализации игровых механик и внимание к деталям интерфейса - наши основные
+            принципы.»
         </p>
         <div id="more" class="textakrobat">
-            <a id="btn" href="https://toy.stream/ru/компания/">Узнать подробнее</a> 
+            <a id="btn" href="https://toy.stream/ru/компания/">Узнать подробнее</a>
             <img class="btn" src="assets/img/arrow.svg" alt="arrow">
         </div>
     </main>
 
     <footer>
-        <div id="inc" class="footer">© Toy.Stream, Inc.</div> 
+        <div id="inc" class="footer">© Toy.Stream, Inc.</div>
         <section id="footernav" class="textakrobat">
-            <a href="#main" class="footer">Главная</a> 
-            <a href="#company" class="footer">Компания</a> 
-            <a href="#games" class="footer">Игры</a> 
-            <a href="#career" class="footer">Карьера</a> 
-            <a href="#news" class="footer">Новости</a> 
-            <a href="#contacts" class="footer">Контакты</a> 
+            <a href="#main" class="footer">Главная</a>
+            <a href="#company" class="footer">Компания</a>
+            <a href="#games" class="footer">Игры</a>
+            <a href="#career" class="footer">Карьера</a>
+            <a href="#news" class="footer">Новости</a>
+            <a href="#contacts" class="footer">Контакты</a>
         </section>
 
         <section id="footerlinks">
@@ -223,11 +68,5 @@
         </section>
     </footer>
 
-    
 </body>
 </html>
-
-
-<!-- <button id="more" class="textakrobat" type="button">Узнать подробнее
-    <img src="assets/img/arrow.svg" alt="arrow">
-</button> -->
