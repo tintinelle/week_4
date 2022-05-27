@@ -1,11 +1,11 @@
         @font-face {
             font-family: 'ZonaPro';
-            src: url(../fonts/zonapro.ttf);
+            src: url("../fonts/zonapro.ttf");
         }
 
         @font-face {
             font-family: 'Akrobat';
-            src: url(../fonts/akrobat.ttf)
+            src: url("../fonts/akrobat.ttf")
         }
 
         #logo {
@@ -78,7 +78,7 @@
         #eng,
         #more {
             width: 120px;
-            height: 120px;
+            height: 110px;
             background-color: #CE0002;
             color: #FFFFFF;
         }
@@ -142,8 +142,7 @@
             right: 25px;
         }
 
-        a,
-        .btn {
+        a {
             text-decoration: none;
         }
 
@@ -151,7 +150,14 @@
             color: #000000;
         }
 
+        .btn {
+            position: relative;
+            left: 16px;
+        }
+
         #btn {
+            position: relative;
+            left: 16px;
             color: #FFFFFF;
         }
 
